@@ -2,5 +2,5 @@
 CIS-7
 
 
-Riverside City College
+Norco College
 Fall 2017
