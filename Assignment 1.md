@@ -9,7 +9,7 @@ CIS-7
 
 ### Prompt:
 
-![](https://i.imgur.com/9Dt4nNT.png)
+![Imgur](https://i.imgur.com/9Dt4nNT.png)
 
 ### Solution:
 
@@ -18,5 +18,23 @@ CIS-7
 ### Work:
 
 
-## &#35;36
+## &#35;37 & 38
+
+### Prompt:
+
+![Imgur](https://i.imgur.com/LfBVFtk.png)
+
+### Solution:
+
+&#35;37:
+
+let A = Value1 < Value2, B = not even;
+
+(A v B)' v (A' ^ B) <=> (A' ^ B') v (A' ^ B)
+                    <=> A' ^ (B' v B)
+                    <=> A' ^ 1
+                    <=> A'
+
+&#35;38:
+
 
