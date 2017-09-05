@@ -9,7 +9,7 @@ CIS-7
 
 ### Prompt:
 
-<img src="https://i.imgur.com/9Dt4nNT.png" width="100" />
+<img src="https://i.imgur.com/9Dt4nNT.png" width="500" />
 
 ### Solution:
 
