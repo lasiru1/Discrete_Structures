@@ -1,7 +1,7 @@
 # Assignment 1
 Uriel Salazar  
 Mr. Wilson  
-CIS-7  
+Computer Information Systems 7 
 08/28/2017  
 
 
@@ -24,7 +24,8 @@ CIS-7
 
 ### Prompt:
 
-![Imgur](https://i.imgur.com/LfBVFtk.png)
+<img src="https://i.imgur.com/LfBVFtk.png" width="600" />
+
 
 ### Solution:
 
