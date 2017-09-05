@@ -40,5 +40,43 @@ let A = Value1 < Value2, B = not even;
                     <=> A'
 
 #38:
+
+let A = F, B = F, and C = T;
+
+then the conditional expression
+
+        (A ^ B)' ^ C
+        
+will always be true, executing statement1.
 ```
+
+## &#35;61 - 64
+
+### Prompt:
+
+<img src="https://i.imgur.com/9GX0BS7.png" width="600" />
+
+### Solution:
+
+```
+#61:
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
