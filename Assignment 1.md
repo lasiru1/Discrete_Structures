@@ -9,7 +9,7 @@ CIS-7
 
 ### Prompt:
 
-<img src="https://i.imgur.com/9Dt4nNT.png" alt="Imgur" style="width: 200px;" />
+<img src="https://i.imgur.com/9Dt4nNT.png" alt="Imgur" style="width: 100px;" />
 
 ### Solution:
 
@@ -29,7 +29,7 @@ CIS-7
 ### Solution:
 
 ```
-&#35;37:
+#37:
 
 let A = Value1 < Value2, B = not even;
 
@@ -38,6 +38,6 @@ let A = Value1 < Value2, B = not even;
                     <=> A' ^ 1
                     <=> A'
 
-&#35;38:
+#38:
 ```
 
