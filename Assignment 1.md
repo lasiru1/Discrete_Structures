@@ -12,7 +12,7 @@ CIS-7
 
 ### Prompt:
 
-![](http://imgur.com/a/UO7r6/35.png)
+![](https://i.imgur.com/9Dt4nNT.png)
 
 ### Solution:
 
