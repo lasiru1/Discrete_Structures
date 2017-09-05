@@ -1,8 +1,8 @@
 # Assignment 1
 Uriel Salazar  
 Mr. Wilson  
-Computer Information Systems 7 
-08/28/2017  
+Computer Information Systems 7  
+08/28/2017
 
 
 ## &#35;35
@@ -86,8 +86,26 @@ which is true. Since truthtellers can only tell the truth, Meredith must be a tr
 ```
 #63
 
+Rothwold is a truthteller.
+Grymlin is a liar.
 
+Rothwold's statement as a wff:
 
+        F v T
+        
+is true. Because what Rothwold says must be true, Grymlin must not be a truthteller (a liar).
+```
+```
+#64
+
+Gwendolyn is a liar.
+Merrilaine is a liar.
+
+Gendolyn's wff:
+
+        F ^ F'
+        
+results in false, therefore Gendolyn is a liar. Since Gendolyn is a liar, Merilaine is liar, which is the opposite of what he stated because he is a liar.
 ```
 
 
