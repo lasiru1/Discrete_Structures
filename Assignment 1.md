@@ -9,7 +9,7 @@ CIS-7
 
 ### Prompt:
 
-![Imgur](https://i.imgur.com/9Dt4nNT.png)
+<img src="https://i.imgur.com/9Dt4nNT.png" alt="Imgur" style="width: 200px;" />
 
 ### Solution:
 
@@ -33,10 +33,10 @@ CIS-7
 
 let A = Value1 < Value2, B = not even;
 
-(A v B)' v (A' ^ B) <=> (A' ^ B') v (A' ^ B)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<=> A' ^ (B' v B)  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<=> A' ^ 1  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<=> A'
+(A v B)' v (A' ^ B) <=> (A' ^ B') v (A' ^ B)
+                    <=> A' ^ (B' v B)
+                    <=> A' ^ 1
+                    <=> A'
 
 &#35;38:
 ```
