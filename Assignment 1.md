@@ -24,7 +24,7 @@ Computer Information Systems 7
 
 ### Prompt:
 
-<img src="https://i.imgur.com/LfBVFtk.png" width="600" />
+<img src="https://i.imgur.com/LfBVFtk.png" width="700" />
 
 
 ### Solution:
@@ -38,7 +38,8 @@ let A = Value1 < Value2, B = not even;
                     <=> A' ^ (B' v B)
                     <=> A' ^ 1
                     <=> A'
-
+```
+```
 #38:
 
 let A = F, B = F, and C = T;
@@ -54,12 +55,37 @@ will always be true, executing statement1.
 
 ### Prompt:
 
-<img src="https://i.imgur.com/9GX0BS7.png" width="600" />
+<img src="https://i.imgur.com/9GX0BS7.png" width="700" />
 
 ### Solution:
 
 ```
 #61:
+
+Percival is a truthteller.
+Llewellyn is a liar.
+
+When Percival made the statement, "at least one of us is a liar", it can be translated into a wff:
+
+        T v F
+        
+which is true. Since truthtellers can only tell the truth, Llewellyn must be a liar.
+```
+```
+#62
+
+Merlin is a truthteller.
+Meredith is a truthteller.
+
+Merlin's statement can be translated to the following wff:
+
+        T -> T
+        
+which is true. Since truthtellers can only tell the truth, Meredith must be a truthteller.
+```
+```
+#63
+
 
 
 ```
