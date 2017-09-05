@@ -13,7 +13,9 @@ CIS-7
 
 ### Solution:
 
+```
 1.0 5.1 2.4 7.2 5.3
+```
 
 ### Work:
 
@@ -26,15 +28,16 @@ CIS-7
 
 ### Solution:
 
+```
 &#35;37:
 
 let A = Value1 < Value2, B = not even;
 
-(A v B)' v (A' ^ B) <=> (A' ^ B') v (A' ^ B)
-                    <=> A' ^ (B' v B)
-                    <=> A' ^ 1
-                    <=> A'
+(A v B)' v (A' ^ B) <=> (A' ^ B') v (A' ^ B)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<=> A' ^ (B' v B)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<=> A' ^ 1  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<=> A'
 
 &#35;38:
-
+```
 
