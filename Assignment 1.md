@@ -1,14 +1,11 @@
 # Assignment 1
-Uriel Salazar
-
-Mr. Wilson
-
-CIS-7
-
-08/28/2017
+Uriel Salazar  
+Mr. Wilson  
+CIS-7  
+08/28/2017  
 
 
-## &#35;
+## &#35;35
 
 ### Prompt:
 
@@ -21,5 +18,5 @@ CIS-7
 ### Work:
 
 
-## &#36;
+## &#35;36
 
