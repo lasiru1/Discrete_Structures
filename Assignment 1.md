@@ -14,11 +14,16 @@ Computer Information Systems 7
 ### Solution:
 
 ```
-1.0 5.1 2.4 7.2 5.3
+let A = (x < 5.0), B = (2x < 10.7), C = (sqrt(5x) > 5.1)
+
+Conditional expression:
+
+        (A ^ B) v C
+
+Output:
+
+1.0 2.4 7.2 5.3
 ```
-
-### Work:
-
 
 ## &#35;37 & 38
 
@@ -32,7 +37,7 @@ Computer Information Systems 7
 ```
 #37:
 
-let A = Value1 < Value2, B = not even;
+let A = (Value1 < Value2), B = not even;
 
 (A v B)' v (A' ^ B) <=> (A' ^ B') v (A' ^ B)
                     <=> A' ^ (B' v B)
@@ -42,13 +47,18 @@ let A = Value1 < Value2, B = not even;
 ```
 #38:
 
-let A = F, B = F, and C = T;
+Consider scenario 1: A = False, B = False, and C = True;
 
 then the conditional expression
 
         (A ^ B)' ^ C
         
-will always be true, executing statement1.
+will be true, executing statement1. However, condsider scenario 2:
+
+A = True, B = False, and C = True;
+
+statement1 will still execute. Therefore, the program does NOT do what we want
+because statement2 did not execute when scenario 2 was presented.
 ```
 
 ## &#35;61 - 64
@@ -62,38 +72,42 @@ will always be true, executing statement1.
 ```
 #61:
 
-Percival is a truthteller.
+Percival is a truth teller.
 Llewellyn is a liar.
 
-When Percival made the statement, "at least one of us is a liar", it can be translated into a wff:
+Percival's statement, "At least one of us is a liar", can be translated into a wff:
 
         T v F
         
-which is true. Since truthtellers can only tell the truth, Llewellyn must be a liar.
+which is true. Since truthtellers can only tell the truth, Percival must be a
+truth teller and Llewellyn must be a liar.
 ```
 ```
 #62
 
-Merlin is a truthteller.
-Meredith is a truthteller.
+Merlin is a truth teller.
+Meredith is a truth teller.
 
-Merlin's statement can be translated to the following wff:
+Merlin's statement, "If I am a truth teller, than Meredith is a truth teller", can be
+translated to the following wff:
 
         T -> T
         
-which is true. Since truthtellers can only tell the truth, Meredith must be a truthteller.
+which is true. Since truthtellers can only tell the truth, Mewrlin and Meredith must
+both be truth tellers.
 ```
 ```
 #63
 
-Rothwold is a truthteller.
-Grymlin is a liar.
+Rothwold is a truth teller.
+Grymlin is a truth teller.
 
-Rothwold's statement as a wff:
+Rothwold's statement, "Either I am a liar or Grymlin is a truth teller", as a wff:
 
         F v T
         
-is true. Because what Rothwold says must be true, Grymlin must not be a truthteller (a liar).
+is true. Rothwold is therfore a truth teller, and because he said "either", Grymlin
+must be a truth teller.
 ```
 ```
 #64
@@ -101,15 +115,16 @@ is true. Because what Rothwold says must be true, Grymlin must not be a truthtel
 Gwendolyn is a liar.
 Merrilaine is a liar.
 
-Gendolyn's wff:
+Gendolyn's statement, "I am a liar but Merrilaine is not", as a wff:
 
         F ^ F'
         
-results in false, therefore Gendolyn is a liar. Since Gendolyn is a liar, Merilaine is liar, which is the opposite of what he stated because he is a liar.
+is a contradiction (always false), therefore Gendolyn is a liar. Since Gendolyn
+is a liar, Merilaine must be the opposite of what Gendolyn stated. Since he said she
+was not a liar, Merilaine must be a liar.
 ```
 
-
-
+End Assignment 1
 
 
 
