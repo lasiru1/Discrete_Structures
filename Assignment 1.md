@@ -14,11 +14,14 @@ Computer Information Systems 7
 ### Solution:
 
 ```
-let A = (x < 5.0), B = (2x < 10.7), C = (sqrt(5x) > 5.1)
+let A = (x < 5.0), B = (2x < 10.7), and C = (sqrt(5x) > 5.1)
 
 Conditional expression:
 
         (A ^ B) v C
+        
+all of the inputs cause the expression to be true except for 5.1, which results in
+F v F = F.
 
 Output:
 
