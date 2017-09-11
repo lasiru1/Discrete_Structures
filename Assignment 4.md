@@ -52,17 +52,16 @@ Show that [(q ^ q') ^ q] ^ [(q ^ 'q) ^ (p v r)] <=> (p ^ q) v (q ^ r)
 
 Hover over for solutions
 
->!(q' ^ p') -> q <=> (q' ^ 'p)' v q      Implication
->!               <=> (q v p) v q         DeMorgan
->!               <=> (q v q) v (q v p)   Distributive
->!               <=> T v (q v p)         Complement / Identity
->!               <=> q v p               Complement / Identity
->!               
->![(q ^ q') ^ q] ^ [(q ^ 'q) ^ (p v r)] <=> (q v q') ^ [q ^ (p v r)]   Distributive
->!                                      <=> T ^ [q ^ (p v r)]          Complement / Identity
->!                                      <=> q ^ (p v r)                Complement / Identity
->!                                      <=> (q ^ p) v (q ^ r)          Distributive
->!                                      <=> (p ^ q) v q ^ r)           Commutative
+>! (q' ^ p') -> q <=> (q' ^ 'p)' v q      Implication  
+>!                <=> (q v p) v q         DeMorgan  
+>!                <=> (q v q) v (q v p)   Distributive  
+>!                <=> T v (q v p)         Complement / Identity  
+>!                <=> q v p               Complement / Identity  
+>!  
+>! [(q ^ q') ^ q] ^ [(q ^ 'q) ^ (p v r)] <=> (q v q') ^ [q ^ (p v r)]   Distributive  
+>!                                       <=> T ^ [q ^ (p v r)]          Complement / Identity  
+>!                                       <=> q ^ (p v r)                Complement / Identity  
+>!                                       <=> (q ^ p) v (q ^ r)          Distributive  
+>!                                       <=> (p ^ q) v q ^ r)           Commutative
 
-
-
+End Assignment 4
