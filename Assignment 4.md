@@ -52,7 +52,7 @@ Show that [(q ^ q') ^ q] ^ [(q ^ 'q) ^ (p v r)] <=> (p ^ q) v (q ^ r)
 
 <details>
   <summary>Click for solutions</summary><p>
----
+```
 (q' ^ p') -> q <=> (q' ^ 'p)' v q      Implication  
                <=> (q v p) v q         DeMorgan  
                <=> (q v q) v (q v p)   Distributive  
@@ -64,7 +64,8 @@ Show that [(q ^ q') ^ q] ^ [(q ^ 'q) ^ (p v r)] <=> (p ^ q) v (q ^ r)
                                       <=> q ^ (p v r)                Complement / Identity  
                                       <=> (q ^ p) v (q ^ r)          Distributive  
                                       <=> (p ^ q) v q ^ r)           Commutative
----
+```
 </p></details>
+
 
 End Assignment 4
