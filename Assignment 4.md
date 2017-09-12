@@ -72,6 +72,4 @@ Show that [(q ^ q') ^ q] ^ [(q ^ 'q) ^ (p v r)] <=> (p ^ q) v (q ^ r)
 
 &nbsp;
 
-&nbsp;
-
 End Assignment 4
