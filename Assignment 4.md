@@ -52,6 +52,7 @@ Show that [(q ^ q') ^ q] ^ [(q ^ 'q) ^ (p v r)] <=> (p ^ q) v (q ^ r)
 
 <details>
   <summary>Click for solutions</summary><p>
+
 ```
 (q' ^ p') -> q <=> (q' ^ 'p)' v q      Implication  
                <=> (q v p) v q         DeMorgan  
