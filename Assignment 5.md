@@ -28,7 +28,7 @@ d) (∀x)(S(x) ^ M(x))
 
 ### Prompt:
 
-<img src="https://i.imgur.com/UqmeXU0.png" width="500" />
+<img src="https://i.imgur.com/ei53Qwu.png" width="700" />
 
 
 ### Solution:
@@ -51,7 +51,7 @@ f) John loves all pretty woman.
 
 ### Prompt:
 
-<img src="https://i.imgur.com/9GX0BS7.png" width="700" />
+<img src="img src="https://i.imgur.com/UqmeXU0.png" width="500" />
 
 ### Solution:
 
