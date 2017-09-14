@@ -51,7 +51,7 @@ f) John loves all pretty woman.
 
 ### Prompt:
 
-<img src="img src="https://i.imgur.com/UqmeXU0.png" width="500" />
+<img src="https://i.imgur.com/UqmeXU0.png" width="500" />
 
 ### Solution:
 
