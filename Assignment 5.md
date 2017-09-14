@@ -28,7 +28,7 @@ d) (∀x)(S(x) ^ M(x))
 
 ### Prompt:
 
-<img src="https://i.imgur.com/ei53Qwu.png" width="700" />
+<img src="https://i.imgur.com/ei53Qwu.png" width="350" />
 
 
 ### Solution:
