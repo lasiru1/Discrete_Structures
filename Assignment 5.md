@@ -15,7 +15,7 @@ Computer Information Systems 7
 ### Solution:
 
 ```
-"\u2200" u"\u2200" &exist;
+`"\u2200"` `u"\u2200"` &exist; `&#x2200;`	`&#8704;` 	`&forall;` ∀
 ```
 
 ## &#35;25
