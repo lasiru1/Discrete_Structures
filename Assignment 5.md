@@ -15,7 +15,7 @@ Computer Information Systems 7
 ### Solution:
 
 ```
-&#8704; &exist;
+&#x2200; &exist;
 ```
 
 ## &#35;25
