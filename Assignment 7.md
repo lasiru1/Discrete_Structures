@@ -9,13 +9,22 @@ Computer Information Systems 7
 
 ### Prompt:
 
-Prove: If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares. Indicate
-which method of proof you used.
+Prove: If n = 25, 100, or 169, then n is a perfect square and is the product of two perfect squares. Indicate which method of proof you used.
 
 ### Solution:
 
 ```
+Direct Proof:
 
+if n = 25, 100, or 169 -> n is a perfect square and is the product of two perfect squares.
+
+let n = 25, 100, or 169,
+let m = √n where m is an integer,
+=> m = √25, √100, or √169
+=> m = 5, 10, or 13
+=> m² = 25, 100, or 169
+=> m² = n
+=> n is a perfect square and is the product of two perfect squares by the definition of perfect squares.
 ```
 
 ## &#35;2
