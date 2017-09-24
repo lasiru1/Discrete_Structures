@@ -81,7 +81,7 @@ let (k + 1) = n₂,
 => 2n₂ is an even integer by the defintion of even integers,
 => A + A² = n₁ ⋅ 2n₂
 => A + A² is even by the defintion of the product of even integers,
-=> the sum of an even integer and it's sqaure is even.
+=> the sum of an even integer and its sqaure is even.
 ```
 
 ## &#35;4
