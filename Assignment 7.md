@@ -106,7 +106,7 @@ let 2k² = m,
 => n² is an even by the definition of even integers,
 this is a contradiction, n² is supposed to be odd,
 the original assumption is false,
-=> if n² is odd, then n must be odd as wel.
+=> if n² is odd, then n must be odd as well.
 ```
 
 End Assignment 7
