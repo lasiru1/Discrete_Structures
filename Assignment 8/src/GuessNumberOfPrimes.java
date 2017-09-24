@@ -41,7 +41,6 @@ public class GuessNumberOfPrimes
             System.out.println("\nERROR: invalid input.");
             System.out.print("Please enter a whole number: ");
         }
-
         //assign user-entered limit
         limit = input.nextInt();
 
@@ -61,14 +60,12 @@ public class GuessNumberOfPrimes
             System.out.print("How many prime numbers are there between 0 and "
                              + limit + "? ");
         }
-
         //assign user-entered guess
         guess = input.nextInt();
 
         //calculate number of primes from 0 to the user-defined limit
         for(int i = 2; i <= limit; i++)
         {
-
             //check if number is divisible by any number
             for(int j = 2; j < i; j++)
             {
@@ -78,25 +75,21 @@ public class GuessNumberOfPrimes
                     break;
                 }
             }
-
             if(primeCheck == true)
             {
                 //tally prime number and add it to the list
                 count++;
                 primes.add(i);
             }
-
             //reset
             primeCheck = true;
         }
-
         //display total count and the list of prime numbers
         System.out.println("\nPrinting prime numbers...\n");
         for(int c = 0; c < primes.size(); c++)
         {
             System.out.println(primes.get(c));
         }
-
         //determine if guess is correct
         if(guess == count && (limit == 2))
         {
