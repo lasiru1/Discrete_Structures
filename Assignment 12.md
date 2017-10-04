@@ -13,7 +13,7 @@ Add Euclid's Algorithm to Assignment 11 and determine the difference in computat
 
 ### Solution:
 
-`
+```java
 /*******************************************************************************
  * File:       GreatestCommonDivisor.java
  * Programmer: Uriel Salazar
@@ -176,4 +176,4 @@ public class GreatestCommonDivisor
     }
 }
 
-`
+```
