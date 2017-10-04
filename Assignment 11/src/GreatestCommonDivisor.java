@@ -36,7 +36,8 @@ public class GreatestCommonDivisor
     }
 
     //declare main program method
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         //declare & initialize variables
         String temp1 = "";
         String temp2 = "";
