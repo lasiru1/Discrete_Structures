@@ -8,47 +8,108 @@
 
 //import packages
 import java.util.Scanner;
+import java.awt.*;
 
 //declare class
 public class GreatestCommonDivisor
 {
     //declare method "getMinimum"
-    public static int getMinimum(int n1, int n2)
+    public static int getGCD(int n1, int n2)
     {
         //declare & initialize variables
-        int gcd = 0;
+        int min = 0;
+        int divisor = 0;
 
-        for(int i = 1; i > numMin; i++)
+        //determine the lesser value between the two inputs
+        min = Math.min(n1, n2);
+
+        //loop to check for gcd
+        for(int i = 1; i <= min ; i++)
         {
-
+            if((n1 % i == 0) && (n2 % i == 0))
+            {
+                divisor = i;
+            }
         }
-
         //return greatest common divisor
-        return gcd;
+        return divisor;
     }
 
     //declare main program method
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         //declare & initialize variables
+        String temp1 = "";
+        String temp2 = "";
         int num1 = 0;
         int num2 = 0;
-        int numMin;
+        int numMin = 0;
+        int gcd = 0;
 
         //declare objects
         Scanner input = new Scanner(System.in);
 
-        //prompt user for input
-        System.out.print("Please enter an integer: ");
-        num1 = input.nextInt();
-        System.out.print("\n\nPlease enter another integer: ");
-        num2 = input.nextInt();
+        //first input-validation check
+        do
+        {
+            //prompt user for first input
+            System.out.print("Please enter a positive integer: ");
+            temp1 = input.nextLine();
 
-        numMin = getMinimum(num1, num2);
+            //check for positive integer
+            if (temp1.matches("^[1-9]\\d*$") == true)
+            {
+                //convert string to integer
+                try
+                {
+                    num1 = Integer.parseInt(temp1);
+                }
+                catch (NumberFormatException e)
+                {
+                    System.out.println("Exception occurred.");
+                }
+                System.out.print("\n");
+            }
+            else
+            {
+                System.out.println("\nERROR: Invalid input.");
+            }
+        }while(temp1.matches("^[1-9]\\d*$") == false);
 
-        System.out.print("The greatest common divisor is: " + numMin);
-        }
+        //second validation check
+        do
+        {
+            //prompt user for second input
+            System.out.print("Please enter another positive integer: ");
+            temp2 = input.nextLine();
 
+            //check for positive integer
+            if (temp2.matches("^[1-9]\\d*$") == true)
+            {
+                //convert string to integer
+                try
+                {
+                    num2 = Integer.parseInt(temp2);
+                }
+                catch (NumberFormatException e)
+                {
+                    System.out.println("Exception occurred.");
+                }
+                System.out.print("\n");
+            }
+            else
+            {
+                System.out.println("\nERROR: Invalid input.");
+            }
+        }while(temp2.matches("^[1-9]\\d*$") == false);
+
+        //call method "findGCD"
+        gcd = getGCD(num1, num2);
+
+        //print results
+        System.out.print("Input: " + num1 + ", " + num2 + "\n");
+        System.out.print("\nThe greatest common divisor is: " + gcd);
+
+        //close scanner object
+        input.close();
     }
-
 }
