@@ -3,7 +3,7 @@
  * Programmer: Uriel Salazar
  * Date:       October 2, 2017
  * Course:     CIS-7
- * Purpose:    Use a brute force method to calculate the GCD of two numbers.
+ * Purpose:    Find the GCD using brute force and Euclid's algorithm.
  ******************************************************************************/
 
 //import packages

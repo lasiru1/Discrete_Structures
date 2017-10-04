@@ -5,11 +5,9 @@ Mr. Wilson
 Computer Information Systems 7  
 10/04/2017
 
-## &#35;1
-
 ### Prompt:
 
-Add Euclid's Algorithm to Assignment 11 and determine the difference in computation time.
+Add Euclid's Algorithm to Assignment 11 and observe the difference in computation time.
 
 ### Solution:
 
@@ -19,7 +17,7 @@ Add Euclid's Algorithm to Assignment 11 and determine the difference in computat
  * Programmer: Uriel Salazar
  * Date:       October 2, 2017
  * Course:     CIS-7
- * Purpose:    Use a brute force method to calculate the GCD of two numbers.
+ * Purpose:    Find the GCD using brute force and Euclid's algorithm.
  ******************************************************************************/
 
 //import packages
@@ -177,3 +175,9 @@ public class GreatestCommonDivisor
 }
 
 ```
+
+### Output:
+
+<img src="https://i.imgur.com/E249ZqM.png" width="1000" />
+
+End Assignment 12
