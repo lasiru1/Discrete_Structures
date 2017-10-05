@@ -166,7 +166,7 @@ public class GreatestCommonDivisor
         //print results
         System.out.print("\nUSING EUCLID'S ALGORITHM" +
                 "\n------------------------" + "\nThe greatest common divisor" +
-                "is: " + gcd + "\n");
+                " is: " + gcd + "\n");
         System.out.println("Total computation time: " + duration + " ns\n\n");
 
         //close scanner object
@@ -180,6 +180,6 @@ public class GreatestCommonDivisor
 
 ### Output:
 
-<img src="https://i.imgur.com/E249ZqM.png" width="1000" />
+<img src="https://i.imgur.com/ept71SZ.png" width="1000" />
 
 End Assignment 12
