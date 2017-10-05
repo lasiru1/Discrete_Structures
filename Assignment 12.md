@@ -5,11 +5,11 @@ Mr. Wilson
 Computer Information Systems 7  
 10/04/2017
 
+## 
+
 ### Prompt:
 
 Add Euclid's Algorithm to Assignment 11 and observe the difference in computation time.
-
-## 
 
 ### Solution:
 
