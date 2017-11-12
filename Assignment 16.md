@@ -68,4 +68,8 @@ Draw a connected graph with:
 
 <img src="https://i.imgur.com/XUziWep.png" width="1200" />
 
+&nbsp;
+
+&nbsp;
+
 End Assignment 16
