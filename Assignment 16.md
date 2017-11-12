@@ -66,6 +66,6 @@ Draw a connected graph with:
 
 ### Solution:
 
-<img src="https://i.imgur.com/XUziWep.png" width="1000" />
+<img src="https://i.imgur.com/XUziWep.png" width="1200" />
 
 End Assignment 16
