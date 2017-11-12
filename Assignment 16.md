@@ -9,18 +9,18 @@ Computer Information Systems 7
 
 ### Prompt:
 
-Sketch a graph having nodes {1,2,3,4,5}, edges {a,b,c,d,e,f} and functions:
+Sketch a graph having nodes {1,2,3,4,5}, edges {a,b,c,d,e,f} and functions:  
 
-g(a) = (1,2)
-g(b) = (1,3)
-g(c) = (3,4)
-g(d) = (3,4)
-g(e) = (4,5)
-g(f) = (5,5)
+g(a) = (1,2)  
+g(b) = (1,3)  
+g(c) = (3,4)  
+g(d) = (3,4)  
+g(e) = (4,5)  
+g(f) = (5,5)  
 
 ### Solution:
 
-<img src="https://i.imgur.com/ZoSHyn7.png" width="700" />
+<img src="https://i.imgur.com/ZoSHyn7.png" width="500" />
 
 ## &#35;2
 
@@ -28,15 +28,15 @@ g(f) = (5,5)
 
 Using the graph from question #1, answer the following:	
 	
-a) Find two nodes that are not adjacent
-b) Find a node adjacent to itself
-c) Find a loop
-d) Find two parallel edges
-e) Find the degree of node 3
-f) Find a path of length 5
-g) Find a cycle
-h) Is this graph complete?
-i) Is this graph connected?
+a) Find two nodes that are not adjacent  
+b) Find a node adjacent to itself  
+c) Find a loop  
+d) Find two parallel edges  
+e) Find the degree of node 3  
+f) Find a path of length 5  
+g) Find a cycle  
+h) Is this graph complete?  
+i) Is this graph connected?  
     
 ### Solution:
 
@@ -56,16 +56,16 @@ f) Yes, the graph is connected.
 
 ## Prompt:
 
-Draw a connected graph with:
+Draw a connected graph with:  
 
-1 Vertex
-2 Vertices
-3 Vertices
-4 Vertices
-5 Vertices
+1 Vertex  
+2 Vertices  
+3 Vertices  
+4 Vertices  
+5 Vertices  
 
 ### Solution:
 
-<img src="https://i.imgur.com/XUziWep.png" width="700" />
+<img src="https://i.imgur.com/XUziWep.png" width="1000" />
 
 End Assignment 16
