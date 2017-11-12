@@ -20,6 +20,8 @@ g(f) = (5,5)
 
 ### Solution:
 
+&nbsp;
+
 <img src="https://i.imgur.com/ZoSHyn7.png" width="500" />
 
 ## &#35;2
@@ -54,7 +56,7 @@ f) Yes, the graph is connected.
 
 ## &#35;3
 
-## Prompt:
+### Prompt:
 
 Draw a connected graph with:  
 
@@ -65,6 +67,8 @@ Draw a connected graph with:
 5 Vertices  
 
 ### Solution:
+
+&nbsp;
 
 <img src="https://i.imgur.com/XUziWep.png" width="1200" />
 
