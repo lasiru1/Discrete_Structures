@@ -65,7 +65,7 @@ c. The length of the shortest path between node a and node b in an acquaintances
 
 ### Solution:
 
-a. An unconnected graph implies that no one in the IT department is acquainted with anyone in the marketing department and vice-versa.  
+a. An unconnected graph implies that no one in the IT department is acquainted with anyone in the marketing department and vice versa.  
 b. Carl and Fletcher are not acquainted (not adjacent nodes). SiuYin is acquainted with 1 person (Carl).  
 c. Carl and Yuri's degree of seperation is: 2  
 
@@ -151,11 +151,12 @@ Draw G' for the graph of Figure 6.18a.
 
 ### Solution:
 
-The complement of G (G') has the same nodes as G, but nodes x-y are adjacent in G' if not adjacent in G (and vice-versa).  
-Note: let A = 1, B = 2, etc.
+The complement of G (G') has the same nodes as G, but nodes x-y are adjacent in G' if not adjacent in G (and vice versa).  
+Note: let A = 1, B = 2, etc.  
 
 <img src="https://i.imgur.com/UUwh1qf.png" width="400" />
 
+&nbsp;
 
 
 ## &#35;71
