@@ -163,9 +163,15 @@ Note: let A = 1, B = 2, etc.
 
 ### Prompt:
 
+Given an adjacency matrix A for a simple graph G, describe the adjacency matrix for G'.
+
 ### Solution:
 
-
+Each node is of degree 1 (no loops or parallel arcs in G).  
+If there is a 1 in the ijth spot for G and a 0 otherwise,  
+=> there is a 0 in the ijth spot for G' and a 1 otherwise.  
+The adjacency matrix for G' is an n x n matrix where the ijth place = 0 if the ijth place for G is 1,  
+and the ijth place = 1 if the ijth place for G is 0.  
 
 
 &nbsp;
