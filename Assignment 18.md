@@ -9,6 +9,8 @@ Computer Information Systems 7
 
 ### Prompt:
 
+give the function g that is part of the formal definition of the directed graph shown.
+
 ### Solution:
 
 
