@@ -83,11 +83,25 @@ Graph (b) is not isomorphic to the others because each of the nodes in graph (b)
 
 ### Prompt:
 
+If all the nodes of a simple, connected, planar graph have degree 4 and the number of arcs is 12, into how many regions does it divide the plane?
+
 ### Solution:
 
+Euler's Formula: n - a + r = 2  
 
-
-
+let n = number of nodes,  
+ => sum of degrees = 4n.  
+ To find the number of nodes, use the fact that the sum of degress is twice the number of arcs a.  
+ 4n = 2(12)  
+ => n = 12 / 2  
+ => n = 6.  
+ Use Euler's Formula to calculate the number of regions:  
+ 6 - 12 + r = 2  
+ => -6 + r = 2  
+ => r = 2 + 6  
+ => r = 8.  
+ 
+ The plane is divded into 8 regions.
 
 ## &#35;49
 
