@@ -47,11 +47,13 @@ g. Yes, removal of arc a_7 will no longer make the graph connected (no path to v
 
 ### Prompt:
 
-
+Draw K_6.
 
 ### Solution:
 
+&nbsp;
 
+<img src="https://i.imgur.com/PKGBqoa.png" width="700" />
 
 
 
