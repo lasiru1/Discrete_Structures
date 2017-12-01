@@ -51,11 +51,9 @@ Draw K_6.
 
 ### Solution:
 
-&nbsp;
-
 <img src="https://i.imgur.com/PKGBqoa.png" width="400" />
 
-
+&nbsp;
 
 ## &#35;9
 
