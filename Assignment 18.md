@@ -53,7 +53,7 @@ Draw K_6.
 
 &nbsp;
 
-<img src="https://i.imgur.com/PKGBqoa.png" width="700" />
+<img src="https://i.imgur.com/PKGBqoa.png" width="400" />
 
 
 
