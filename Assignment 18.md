@@ -126,10 +126,8 @@ Describe the graph whose adjacency matrix is 0_n, the n x n matrix of all 0's.
 
 The graph is undirected (matrix is symmetric).  
 There are n nodes in the graph (matrix is of order n x n).  
-There is a loop in the graph at each node (a 0 in the matrix indicates there are no arcs between the node).  
-The graph is unconnected and contains n nodes, with no arcs connecting any .
-
-
+There are no arcs in the graph (a 0 in the matrix indicates there are no arcs between the nodes).  
+The graph is unconnected and contains n nodes, with no arcs connecting any of the nodes.  
 
 ## &#35;51
 
