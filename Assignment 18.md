@@ -145,12 +145,16 @@ The adjacency matrix of K_n is an n x n matrix where the entries in the principa
 
 ## &#35;65
 
-
-
 ### Prompt:
+
+Draw G' for the graph of Figure 6.18a.
 
 ### Solution:
 
+Note: the complement of G (G') has the same nodes as G, but nodes x-y are adjacent in G' if not adjacent in G (and vice-versa).  
+
+
+<img src="https://i.imgur.com/UUwh1qf.png" width="400" />
 
 
 
