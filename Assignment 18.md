@@ -73,11 +73,11 @@ c. Carl and Yuri's degree of seperation is: 2
 
 ### Prompt:
 
+Which of the following graphs is not isomorphic to the others, and why?
+
 ### Solution:
 
-
-
-
+Graph (b) is not isomorphic to the others because each of the nodes in graph (b) have a degree of at least 1, whereas graphs (a) and (c) both have a node of degree 0. Graph (b) can never be made to "look" like the other graphs.  
 
 ## &#35;30
 
@@ -139,4 +139,4 @@ c. Carl and Yuri's degree of seperation is: 2
 
 &nbsp;
 
-End Assignment 4
+End Assignment 18
