@@ -133,13 +133,19 @@ The graph is unconnected and contains n nodes, with no arcs connecting any of th
 
 ### Prompt:
 
+Describe the adjacency matrix for K_n, the simple complete graph with n nodes.
+
 ### Solution:
 
-
-
-
+A simple graph contains no loops or parallel arcs.  
+A complete graph mean each node is adjacent to the other and there is an arc between every pair of nodes.  
+The entries in the iith place are 0 (no loops).  
+The entries in the ijth place, where i =/= j, is 1 (an arc between every node).  
+The adjacency matrix of K_n is an n x n matrix where the entries in the principal diagonal are all 0's and all other entries are 1's.  
 
 ## &#35;65
+
+
 
 ### Prompt:
 
