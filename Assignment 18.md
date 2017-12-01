@@ -91,7 +91,7 @@ Euler's Formula: n - a + r = 2
 
 let n = number of nodes,  
  => sum of degrees = 4n.  
- To find the number of nodes, use the fact that the sum of degress is twice the number of arcs a.  
+ To find the number of nodes, use the fact that the sum of degrees is twice the number of arcs a.  
  4n = 2(12)  
  => n = 12 / 2  
  => n = 6.  
@@ -107,11 +107,14 @@ let n = number of nodes,
 
 ### Prompt:
 
+Describe the graph whose adjacency matrix is I_n, the n x n identity matrix.
+
 ### Solution:
 
-
-
-
+The graph is undirected (matrix is symmetric).  
+There are n nodes in the graph (matrix is of order n x n).  
+There is a loop in the graph at each node (a 1 in the matrix indicates there is 1 arc between the node).  
+The graph contains n loops, 1 loop for each of the n nodes.
 
 ## &#35;50
 
