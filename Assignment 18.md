@@ -59,11 +59,15 @@ Draw K_6.
 
 ### Prompt:
 
+a. The acquaintanceship graph for the IT department and the marketing department of a major corporation is an unconnected graph. What does this imply?  
+b. The following figure represents an acquaintanceship graph for residents of an apartment building. Are Carl and Fletcher acquainted? How many people is SiuYin acquainted with?  
+c. The length of the shortest path between node a and node b in an acquaintanceship graph is sometimes called the degree of seperation between a and b. What is the degree of separation between Carl and Yuri?  
+
 ### Solution:
 
-
-
-
+a. An unconnected graph implies that no one in the IT department is acquainted with anyone in the marketing department and vice-versa.  
+b. Carl and Fletcher are not acquainted (not adjacent nodes). SiuYin is acquainted with 1 person (Carl).  
+c. Carl and Yuri's degree of seperation is: 2  
 
 ## &#35;13
 
