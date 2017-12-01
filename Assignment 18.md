@@ -9,11 +9,14 @@ Computer Information Systems 7
 
 ### Prompt:
 
-give the function g that is part of the formal definition of the directed graph shown.
+Give the function g that is part of the formal definition of the directed graph shown.
 
 ### Solution:
 
-
+g(a) = (1, 2)
+g(b) = (1, 3)
+g(c) = (2, 3)
+g(d) = (2, 2)
 
 
 ## &#35;2
