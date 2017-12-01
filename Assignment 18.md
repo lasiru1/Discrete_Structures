@@ -151,8 +151,8 @@ Draw G' for the graph of Figure 6.18a.
 
 ### Solution:
 
-Note: the complement of G (G') has the same nodes as G, but nodes x-y are adjacent in G' if not adjacent in G (and vice-versa).  
-
+The complement of G (G') has the same nodes as G, but nodes x-y are adjacent in G' if not adjacent in G (and vice-versa).  
+Note: let A = 1, B = 2, etc.
 
 <img src="https://i.imgur.com/UUwh1qf.png" width="400" />
 
