@@ -113,16 +113,21 @@ Describe the graph whose adjacency matrix is I_n, the n x n identity matrix.
 
 The graph is undirected (matrix is symmetric).  
 There are n nodes in the graph (matrix is of order n x n).  
-There is a loop in the graph at each node (a 1 in the matrix indicates there is 1 arc between the node).  
-The graph contains n loops, 1 loop for each of the n nodes.
+There is a loop in the graph at each node (a 1 in the matrix indicates there is 1 arc between the nodes).  
+The graph is unconnected and contains n loops, 1 loop for each of the n nodes.
 
 ## &#35;50
 
 ### Prompt:
 
+Describe the graph whose adjacency matrix is 0_n, the n x n matrix of all 0's.
+
 ### Solution:
 
-
+The graph is undirected (matrix is symmetric).  
+There are n nodes in the graph (matrix is of order n x n).  
+There is a loop in the graph at each node (a 0 in the matrix indicates there are no arcs between the node).  
+The graph is unconnected and contains n nodes, with no arcs connecting any .
 
 
 
