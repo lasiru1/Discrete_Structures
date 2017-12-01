@@ -13,10 +13,10 @@ Give the function g that is part of the formal definition of the directed graph 
 
 ### Solution:
 
-g(a) = (1, 2)
-g(b) = (1, 3)
-g(c) = (2, 3)
-g(d) = (2, 2)
+g(a) = (1, 2)  
+g(b) = (1, 3)  
+g(c) = (2, 3)  
+g(d) = (2, 2)  
 
 
 ## &#35;2
